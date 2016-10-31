@@ -9,3 +9,5 @@ S'identifier :
 Utiliser : utilisateur : admin  mp : admin
 - pour avoir tous les droits
 - ou reportez vous à la table mrbs_users
+
+Note: la session admin permet d'avoir accès à l'onglet "Gestion des utilisateurs" toutefois c'ette fonctionnalité n'a pas été codée.
