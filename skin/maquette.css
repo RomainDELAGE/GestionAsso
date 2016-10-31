@@ -1,0 +1,501 @@
+/* Général */
+
+body {
+    background: url('fond.jpg') fixed;
+    font-family: Arial,Verdana,sans-serif;
+}
+
+/**************************************************************************************************/
+/* Menu Haut */
+
+#menu_haut
+{
+	height: 40px;
+	position:relative;
+	margin: 0; padding: 0;
+}
+
+
+
+#menu
+{
+	position: absolute;
+	width: 99.5%;
+	height:50px;
+	
+}
+
+#menu dl
+{
+	width: 24.95%;
+	height:40px;
+	margin: 0; padding: 0;
+	display: block;
+	float: left;
+	background-color: rgba(75,102,123,0.9);
+	text-align: center;
+}
+
+#menu dt
+{
+	
+	height:40px;
+	display: block;
+	color:#FFF;
+	line-height: 40px;
+	text-align: center;
+	border-right: dotted 1px #e7ebee;
+	
+}
+
+#menu dd
+{
+	margin: 0; padding: 0;
+	display: block;
+	background-color: rgba(75,102,123,0.9);
+}
+
+#menu dd ul
+{
+	margin: 0; padding: 0;
+	text-align: center;
+	list-style: none;
+
+}
+
+#menu dd ul li a
+{
+	color:#e7ebee;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	border-top: dotted 1px #e7ebee;
+	border-bottom: dotted 1px #e7ebee;
+	list-style: none;
+	display: block;
+
+}
+
+#menu dd ul li a:hover
+{
+	background-color: rgba(75,102,123,0.4);
+	color:#A9EAFE;
+	font-size: 22px;
+}
+
+#menu dd ul li 
+{
+	display: block;
+	margin:0; padding:0;
+}
+
+#menu dl dd{
+	display: none;
+}
+
+#menu dl:hover dd
+{
+	display: block;
+}
+
+/********************************************************************************************************/
+/* Contenu - Centre de la page */
+
+
+#contenu
+{
+	width: 98%;
+	height:550px ;
+	box-shadow: 0px 4px 4px #1c1a19;
+	background-color: rgba(231,235,238, 0.4);
+	color: #0b263b;
+	margin-top: 20px;
+	padding-left: 20px;
+	border-radius: 2px;
+
+}
+ 
+
+#contenu h2
+{
+	padding-top: 15px;
+	color : rgba(75,102,123);
+	font-family: 'Calibri', cursive;
+	
+}
+
+/*************************************************** page assoc.php ***********************************************/
+#block-vignette
+{
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+
+#vignette
+{
+	width: 211px;
+	height: 211px;
+	border-radius: 5px;
+	margin-top: 30px;
+	position: relative;
+	background-color: white;
+	box-shadow: 0px 4px 4px #1c1a19;
+}
+
+#vignette img
+{
+	width: 211px;
+	height: 211px;
+	border-radius: 5px;
+	
+}
+
+
+#nom
+{
+	font-family: 'Calibri', cursive;
+	margin-top: 0px;
+	text-align: center;
+	width: 211px;
+	
+	background-color: rgba(24,24,24,0.8);
+	border-radius: 0px 0px 5px 5px;
+	position: absolute;
+	bottom: 0;
+	
+}
+
+/*         affichage des associations en détail         */
+
+#affiche_assoc
+{
+	width: 98%;
+	box-shadow: 0px 4px 4px #1c1a19;
+	background-color: rgba(231,235,238, 0.4);
+	color: #0b263b;
+	margin-left: 20px;
+	border-radius: 2px;
+	padding-bottom: 20px;
+
+	
+}
+
+#image{
+	position:relative;
+}
+
+#image img{
+	width: 100%;
+	height: 200px;
+
+
+}
+
+#logo
+{
+	position:absolute;
+	background-color: white;
+	border-radius: 5px;
+	top: 30px; 
+	left: 40px;
+}
+
+#logo img{
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px #1c1a19;
+
+}
+
+#nom1
+{
+	
+	text-align: center;
+	position:absolute;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(24,24,24,0.8);
+	bottom: 0;
+}
+
+#nom1 h3
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0; 
+	
+}
+
+#desc1
+{
+	margin:20px;
+}
+
+#contact{
+
+	margin: 40px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+
+#affiche_assoc_retour{
+	background-color: rgba(24,24,24,0.8);
+	border-radius: 5px;
+	margin-right: 3%;
+	margin-left: 90%;
+
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/***********************************************/ /*tous les liens ici*/ /******************************************/
+a 
+{
+	color : white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a, a:visited /* Lien et lien visité */
+{
+color: #FEFEFE;
+text-decoration:none;
+}
+a:hover /* On pointe le lien */
+{
+color: #A9EAFE;
+font-size: 25px;
+text-decoration:none;
+}
+a:active, a:focus /* Lors de l'activation et de l'attente sur un lien */
+{
+color: lightblue;
+text-decoration:none;
+}
+
+
+/*************************************** css autentification.php ***************************************************/
+
+
+#contenu_formulaire p 
+{
+	margin-left: 40px;
+	font-family: 'Calibri', cursive;
+	font-size: 20px;
+	display: inline-block;
+	width: 680px;
+	margin-bottom: 10px;
+}	
+
+#contenu_formulaire label 
+{
+	font-family: 'Calibri', cursive;
+	font-size: 20px;
+	display: inline-block;
+	
+
+}
+
+#contenu_formulaire input 
+{
+	font-family: 'Geomanist',sans-serif, cursive;
+	font-size: 18px;
+	border-radius: 4px;
+	background-color: lightgrey; 
+	border: medium none;
+	width: 600px;
+	height: 25px;
+	display: block;
+	padding-left: 15px;
+}
+
+/*********************************************/
+
+#formulaire_insc
+{
+	
+	display: inline-block;
+    width: 570px;
+    float: left;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#formulaire_insc input
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(75,102,123,0.9);
+
+	border-radius: 4px;
+	border: medium none;
+	width: 420px;
+	padding: 3px;
+	margin: 7px;
+}
+
+#envoie_formulaire_insc input
+{
+	text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(75,102,123,0.9);
+
+	border-radius: 4px;
+	border: medium none;
+	width: 300px;
+	padding: 2px;
+	margin: 15px;
+}
+
+#formulaire_insc label
+{
+    font-size: 18px;
+   text-align: center;
+	width: 440px;
+	padding: 3px;
+}
+#formulaire_insc p
+{
+    font-size: 18px;
+   text-align: center;
+	color: red;
+}
+
+
+
+#formulaire
+{
+    display: inline-block;
+    width: 570px;
+    float: left;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#formulaire h1
+{
+	font-size: 20px;
+}
+
+#formulaire input
+{
+   	text-align: center;
+	border-radius: 4px;
+	border: medium none;
+	width: 400px;
+	height: 25px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+#formulaire textarea
+{
+	font-family:Arial,Verdana,sans-serif;
+   	text-align: center;
+	border-radius: 4px;
+	border: medium none;
+	width: 400px;
+	height: 80px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+#formulaire_nom input
+{
+   	
+	display: inline-block;
+    width: 586px;
+    float: left;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 7px;
+	padding-right: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	border: medium none;
+	height: 35px;
+	margin-bottom: 5px;
+	font-size: 25px;
+}
+
+
+#envoie_form
+{
+    display: inline-block;
+    width: 570px;
+    float: left;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#envoie_form input
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(75,102,123,0.9);
+
+	border-radius: 4px;
+	border: medium none;
+	width: 300px;
+	padding: 3px;
+	margin: 7px;
+}
+
+#envoie_form select
+{
+  text-align: center;
+	border-radius: 4px;
+	border: medium none;
+	width: 400px;
+	font-size: 15px;
+	height: 25px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+#envoie_form option
+{
+  text-align: center;
+	border-radius: 4px;
+	border: medium none;
+ 	font-size: 15px;
+	padding-left: 15px;
+}
+
+
+
+#retour{
+
+	background-color: rgba(24,24,24,0.8);
+	border-radius: 5px;
+	margin-right: 30px;
+	float:right;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+
